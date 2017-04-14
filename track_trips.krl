@@ -8,11 +8,11 @@ ruleset track_trips {
 
   global {
     __testing = { "queries": [ { "name": "hello", "args": [ "obj" ] },
-                               { "name": "__testing" } ],
-                  "events": [ { "domain": "echo", "type": "hello" },
+                               { "name": "__testing" } ],
+                  "events": [ { "domain": "echo", "type": "hello" },
                               { "domain": "echo", "type" : "message", 
                                 "attrs": [ "mileage" ] } ]
-    }
+    }
   }
 
   rule process_trip {
