@@ -1,6 +1,6 @@
-ruleset track_trips2 {
+ruleset track_trips_2 {
   meta {
-    name "track_trips2"
+    name "track_trips_2"
     description << A ruleset for an echo server >>
     author "Chris Ward"
     shares __testing
