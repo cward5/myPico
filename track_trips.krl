@@ -3,7 +3,6 @@ ruleset track_trips {
     name "track_trips"
     description << A ruleset for an echo server >>
     author "Chris Ward"
-    shares __testing
-  }
 
+  }
 }
